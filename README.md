@@ -24,7 +24,7 @@ In this repository, we configure user accounts, groups, and Organizational Units
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this step, we logged into the Windows Server VM that is acting as the domain controller using Remote Desktop. The screenshot shows the desktop environment after logging in. Ensure that you are logged in with administrative privileges to perform Active Directory tasks.
 </p>
 <br />
 
@@ -33,7 +33,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This screenshot shows the Active Directory Users and Computers (ADUC) console. We created Organizational Units (OUs) to organize users based on departments (e.g., Admins, Clients, Employees). OUs help manage permissions and group policies efficiently.
 </p>
 <br />
 
@@ -42,6 +42,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After creating OUs, we added individual user accounts to their respective OUs. The screenshot displays the “New User” dialog where we specify the username, full name, and password. This ensures that each user is correctly associated with the proper department OU.
 </p>
 <br />
