@@ -50,8 +50,15 @@ Before we begin opening up the virtual machines, we need to configure the privat
 In this step, we logged into the Windows Server VM that is acting as the domain controller using Remote Desktop. The screenshot shows the desktop environment after logging in. Ensure that you are logged in with administrative privileges to perform Active Directory tasks.
 </p>
 <br />
+<img width="2558" height="1268" alt="Screenshot 2025-11-18 184747" src="https://github.com/user-attachments/assets/6ad2a323-c08b-4347-8fa6-9992643c9003" />
 
 <p>
+
+ Next, we'll RDP into the domain controller and disable the firewall for the domain, private, and public profiles. To do this, right-click the Windows symbol, select "Run," and type wf.msc. In the Windows Defender Firewall window, ensure the firewall is turned off for all profiles.
+<p>
+
+</p>
+
 <img width="2559" height="1282" alt="Screenshot 2025-11-06 152223" src="https://github.com/user-attachments/assets/6ec73874-9376-460b-8cc4-b83675e56fdc" />
 
 </p>
