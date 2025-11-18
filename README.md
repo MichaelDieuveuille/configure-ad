@@ -27,20 +27,20 @@ First, we will create a resource group in Microsoft Azure called "Active-Directo
 <img width="2495" height="1095" alt="Screenshot 2025-11-18 171926" src="https://github.com/user-attachments/assets/f895a105-a497-4d2c-85ba-151c3f759789" />
 
 Next, we will create a virtual network that is associated with the resource group "Active-Directory-Lab" and we will call the virtual network "Active-Directory-VNet".
-
+</p>
 
 <img width="2493" height="1158" alt="Screenshot 2025-11-18 172058" src="https://github.com/user-attachments/assets/66f7a836-71d9-4e8a-ad79-f29e6a9e60a7" />
-
+</p>
 Then, we will create a Virtual Machine and name it "dc-1" since this will be acting as the domain controller for our lab. The domain controller will be where we will install active directory on an admin account.
 
 
 <img width="2504" height="1136" alt="Screenshot 2025-11-18 172628" src="https://github.com/user-attachments/assets/133ad37b-2dd3-4160-883c-7c103571138b" />
-
+</p>
 After that, we will create another virtual machine and name it "client-1" and this will be our user account. The user account will be a random user account created by powershell automation when we create organization units in the Active Directory Users and Computers.
-
+</p>
 
 <img width="2503" height="1289" alt="Screenshot 2025-11-18 175442" src="https://github.com/user-attachments/assets/6d2c28d4-29fe-4620-badd-6ca4831f0b55" />
-
+</p>
 Before we begin opening up the virtual machines, we need to configure the private address Ip settings for the dc-1 virtual machine from dynamic to static. This ensures the client machine can join the domain and use DC-1 as its DNS server. 
 <img width="2505" height="1307" alt="Screenshot 2025-11-06 150541" src="https://github.com/user-attachments/assets/9f22098a-024b-45ff-bf71-e16f98e3f25e" />
 
