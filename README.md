@@ -43,8 +43,7 @@ After that, we will create another virtual machine and name it "client-1" and th
 </p>
 
 Before we begin opening up the virtual machines, we need to configure the private address Ip settings for the dc-1 virtual machine from dynamic to static. This ensures the client machine can join the domain and use DC-1 as its DNS server. 
-<img width="1923" height="1165" alt="Screenshot 2025-11-03 235056" src="https://github.com/user-attachments/assets/81c02c6e-eccd-4f15-9db8-34dc640ac3a7" />
-
+<img width="2505" height="1307" alt="Screenshot 2025-11-06 150541" src="https://github.com/user-attachments/assets/7f491ee1-c9d3-44b1-94dc-bab84cd997c8" />
 
 </p>
 <p>
