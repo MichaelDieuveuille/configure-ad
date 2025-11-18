@@ -23,17 +23,21 @@ In this repository, we configure user accounts, groups, and Organizational Units
 <img width="2479" height="1108" alt="Screenshot 2025-11-18 171800" src="https://github.com/user-attachments/assets/dd907ef8-f978-4d08-8101-3f73f765843a" />
 First, we will create a resource group in Microsoft Azure called "Active-Directory-Lab" where we will create two virtual machines inside the resource group.
 
+
 <img width="2495" height="1095" alt="Screenshot 2025-11-18 171926" src="https://github.com/user-attachments/assets/f895a105-a497-4d2c-85ba-151c3f759789" />
 
 Next, we will create a virtual network that is associated with the resource group "Active-Directory-Lab" and we will call the virtual network "Active-Directory-VNet".
+
 
 <img width="2493" height="1158" alt="Screenshot 2025-11-18 172058" src="https://github.com/user-attachments/assets/66f7a836-71d9-4e8a-ad79-f29e6a9e60a7" />
 
 Then, we will create a Virtual Machine and name it "dc-1" since this will be acting as the domain controller for our lab. The domain controller will be where we will install active directory on an admin account.
 
+
 <img width="2504" height="1136" alt="Screenshot 2025-11-18 172628" src="https://github.com/user-attachments/assets/133ad37b-2dd3-4160-883c-7c103571138b" />
 
 After that, we will create another virtual machine and name it "client-1" and this will be our user account. The user account will be a random user account created by powershell automation when we create organization units in the Active Directory Users and Computers.
+
 
 <img width="2503" height="1289" alt="Screenshot 2025-11-18 175442" src="https://github.com/user-attachments/assets/6d2c28d4-29fe-4620-badd-6ca4831f0b55" />
 
