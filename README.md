@@ -22,7 +22,7 @@ In this repository, we configure user accounts, groups, and Organizational Units
 <p>
 <img width="2479" height="1108" alt="Screenshot 2025-11-18 171800" src="https://github.com/user-attachments/assets/dd907ef8-f978-4d08-8101-3f73f765843a" />
 First, we will create a resource group in Microsoft Azure called "Active-Directory-Lab" where we will create two virtual machines inside the resource group.
-
+</p>
 
 <img width="2495" height="1095" alt="Screenshot 2025-11-18 171926" src="https://github.com/user-attachments/assets/f895a105-a497-4d2c-85ba-151c3f759789" />
 
