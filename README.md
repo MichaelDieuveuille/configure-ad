@@ -120,3 +120,4 @@ After running the script, open Active Directory Users and Computers (ADUC) and v
 
 Lastly, log in to the Client1 VM using one of the user accounts created by the PowerShell script, with the username and default password Password1. After logging in, open PowerShell to verify that you are logged in as one of the script-created users.
 
+<img width="869" height="734" alt="AD Portfolio 15" src="https://github.com/user-attachments/assets/269d657e-73b1-493f-94a0-6694fd316353" />
