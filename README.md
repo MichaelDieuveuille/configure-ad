@@ -78,7 +78,7 @@ Following that, we'll RDP into the Client1 virtual machine and attempt to ping D
 <p>
  
 <img width="789" height="562" alt="AD Portfolio 4" src="https://github.com/user-attachments/assets/e9a857cd-daeb-4cf4-9ab3-52325970eea0" />
- Next, we'll install Active Directory Domain Services (AD DS) using the Server Manager on the domain controller. 
+Next, we'll install Active Directory Domain Services (AD DS) using the Server Manager on the domain controller. 
 </p>
 
 <img width="762" height="555" alt="AD Portfolio 5" src="https://github.com/user-attachments/assets/b159512b-51ca-4167-b3b2-846fb128ff88" />
