@@ -81,10 +81,15 @@ Following that, we'll RDP into the Client1 virtual machine and attempt to ping D
 </p>
 
 <img width="762" height="555" alt="AD Portfolio 5" src="https://github.com/user-attachments/assets/b159512b-51ca-4167-b3b2-846fb128ff88" />
+<p>
+ 
+</p>
 We'll promote DC-1 to a Domain Controller and set up a new forest with the domain name mydomain.com. 
-
+<p>
+ 
+</p>
 <img width="765" height="531" alt="AD Portfolio 6" src="https://github.com/user-attachments/assets/218d1020-7181-4c69-b78b-81b2e316d3d7" />
- Next, we'll open Active Directory Users and Computers and create two organizational units, _EMPLOYEES and _ADMINS, by right-clicking mydomain.com, selecting New, and then choosing Organizational Unit.
+Next, we'll open Active Directory Users and Computers and create two organizational units, _EMPLOYEES and _ADMINS, by right-clicking mydomain.com, selecting New, and then choosing Organizational Unit.
 
 
 
