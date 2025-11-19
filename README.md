@@ -95,6 +95,9 @@ Next, we'll open Active Directory Users and Computers and create two organizatio
 
 </p>
 <img width="438" height="377" alt="AD Portfolio 7" src="https://github.com/user-attachments/assets/88cb89d1-5b66-424a-b6b0-f87dca8abfe5" />
+<p>
+ 
+</p>
 In the Admins OU, we'll create a new user named Ken Doe with the username ken_admin. 
 
 <img width="827" height="724" alt="AD portfolio 8" src="https://github.com/user-attachments/assets/df6b7dac-dd41-43bc-ad5f-0c31aa19491e" />
@@ -111,13 +114,16 @@ In the Admins OU, we'll create a new user named Ken Doe with the username ken_ad
 
 Now, log out of DC-1 and reconnect using RDP with the credentials mydomain.com\ken_admin and the assigned password. This account will be used for all future logins to DC-1. 
 
+
 <img width="455" height="557" alt="AD Portfolio 9" src="https://github.com/user-attachments/assets/835481a9-e810-417d-b79b-a4447e089873" />
 
 Now, we'll join the domain from the Client1 VM. RDP into the system, right-click the Windows logo, select System, then click Rename this PC (Advanced). Next, click Change, select Domain, and enter the domain name mydomain.com. The VM will restart to apply the changes. 
 
+
 <img width="1201" height="656" alt="AD Portfolio 10" src="https://github.com/user-attachments/assets/312d4b32-591e-4ae9-9ac7-88a8f3485e0f" />
 
  Go back to DC-1 and open Active Directory Users and Computers. Create another organizational unit named _CLIENTS under mydomain.com.
+ 
 <img width="757" height="530" alt="AD Portfolio 11" src="https://github.com/user-attachments/assets/08ff45dd-2ed9-46e6-837b-0a96107ab6d9" />
 
 Next, log into the Client1 VM as ken_admin. Right-click the Windows logo, select System, then choose Remote Desktop. Click Select users that can remotely access this PC and add Domain Users to allow them RDP access to the VM.
