@@ -106,7 +106,9 @@ Next, we'll open Active Directory Users and Computers and create two organizatio
  
 </p>
 In the Admins OU, we'll create a new user named Ken Doe with the username ken_admin. 
-
+<P>
+ 
+</P>
 <img width="827" height="724" alt="AD portfolio 8" src="https://github.com/user-attachments/assets/df6b7dac-dd41-43bc-ad5f-0c31aa19491e" />
 
 </p>
