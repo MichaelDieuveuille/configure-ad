@@ -63,8 +63,10 @@ In this step, we logged into the Windows Server VM that is acting as the domain 
 <img width="1333" height="690" alt="AD Portfolio 1" src="https://github.com/user-attachments/assets/8af0a4e4-7bb8-4790-bd9d-772efb384470" />
 
 </p>
- Next, we'll change the DNS server on Client1 to the static private IP address of DC-1 in the networking settings within the Azure portal. After making this change, restart the virtual machines to apply the new DNS configuration.
+<p>
+</p>
 
+Next, we'll change the DNS server on Client1 to the static private IP address of DC-1 in the networking settings within the Azure portal. After making this change, restart the virtual machines to apply the new DNS configuration.
 
 
 
