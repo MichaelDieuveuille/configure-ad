@@ -84,7 +84,6 @@ Following that, we'll RDP into the Client1 virtual machine and attempt to ping D
 <img width="762" height="555" alt="AD Portfolio 5" src="https://github.com/user-attachments/assets/b159512b-51ca-4167-b3b2-846fb128ff88" />
 <p>
  
-</p>
 We'll promote DC-1 to a Domain Controller and set up a new forest with the domain name mydomain.com. 
 <p>
  
