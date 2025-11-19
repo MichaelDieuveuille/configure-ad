@@ -13,10 +13,32 @@ In this repository, we configure user accounts, groups, and Organizational Units
 - Windows 10 (client)
 
 ## High-Level Steps
-1. Log into the domain controller VM.
-2. Create Organizational Units for departments.
-3. Add users to respective OUs.
-4. Create security groups and assign users.
+1.Set up Azure environment
+Created a resource group, virtual network, and two virtual machines—one for the domain controller and one for a client system.
+
+2.Configure networking for Active Directory
+Assigned a static IP to the domain controller and updated the client’s DNS settings to point to the DC to enable domain communication.
+
+3.Install and configure Active Directory
+Installed Active Directory Domain Services, promoted the server to a domain controller, and created the domain structure.
+
+4.Organize users using Organizational Units (OUs)
+Created OUs for Employees, Admins, and Clients to organize user accounts and apply proper management policies.
+
+5.Create and assign admin accounts
+Added an administrative user (ken_admin) and assigned Domain Admin permissions to manage the environment securely.
+
+6.Join the client machine to the domain
+Connected the Windows 10 client VM to the new domain, enabling centralized authentication.
+
+7.Enable remote access for domain users
+Configured Remote Desktop access on the client machine for authorized domain users.
+
+8.Automate user creation with PowerShell
+Used a PowerShell script to automatically generate and create multiple user accounts in the Employees OU.
+
+9.Verify successful Active Directory setup
+Confirmed that users, groups, and OUs were created properly and ensured a script-generated user could log in from the client machine.
 
 ## Actions and Observations
 <p>
