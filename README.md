@@ -126,6 +126,7 @@ Now, log out of DC-1 and reconnect using RDP with the credentials mydomain.com\k
 <p>
  
 </p>
+
 Now, we'll join the domain from the Client1 VM. RDP into the system, right-click the Windows logo, select System, then click Rename this PC (Advanced). Next, click Change, select Domain, and enter the domain name mydomain.com. The VM will restart to apply the changes. 
 
 
@@ -133,17 +134,20 @@ Now, we'll join the domain from the Client1 VM. RDP into the system, right-click
 <p>
  
 </p>
- Go back to DC-1 and open Active Directory Users and Computers. Create another organizational unit named _CLIENTS under mydomain.com.
+
+Go back to DC-1 and open Active Directory Users and Computers. Create another organizational unit named _CLIENTS under mydomain.com.
  
 <img width="1226" height="930" alt="AD Portfolio 12" src="https://github.com/user-attachments/assets/f44ebe13-22f5-4d03-b4ee-41f3a24bdd8a" />
 <p>
  
 </p>
+
 Next, log into the Client1 VM as ken_admin. Right-click the Windows logo, select System, then choose Remote Desktop. Click Select users that can remotely access this PC and add Domain Users to allow them RDP access to the VM.
 
 <img width="1309" height="855" alt="AD Portfolio 13" src="https://github.com/user-attachments/assets/062c3dad-51d5-4172-a17a-ca6c7b9c2c1a" />
 <p>
-https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1 Log in to DC-1 as ken_admin and open PowerShell ISE as an administrator. Create a new file, paste the script into it, and execute it. Observe as the accounts are created automatically.
+
+ https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1 Log in to DC-1 as ken_admin and open PowerShell ISE as an administrator. Create a new file, paste the script into it, and execute it. Observe as the accounts are created automatically.
  <p>
  
  </p>
@@ -151,12 +155,14 @@ https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps
 <P>
  
 </P>
+
 After running the script, open Active Directory Users and Computers (ADUC) and verify that the accounts have been created in the appropriate _EMPLOYEES organizational unit.
 
 <img width="869" height="734" alt="AD Portfolio 15" src="https://github.com/user-attachments/assets/9eaea62c-c850-49b8-bafa-13cb4098e634" />
 <p>
 
 </p>
+
 Lastly, log in to the Client1 VM using one of the user accounts created by the PowerShell script, with the username and default password Password1. After logging in, open PowerShell to verify that you are logged in as one of the script-created users.
 
 
