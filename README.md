@@ -144,7 +144,13 @@ Next, log into the Client1 VM as ken_admin. Right-click the Windows logo, select
 <img width="1309" height="855" alt="AD Portfolio 13" src="https://github.com/user-attachments/assets/062c3dad-51d5-4172-a17a-ca6c7b9c2c1a" />
 <p>
 https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1 Log in to DC-1 as ken_admin and open PowerShell ISE as an administrator. Create a new file, paste the script into it, and execute it. Observe as the accounts are created automatically.
-
+ <p>
+ 
+ </p>
+<img width="431" height="370" alt="AD Portfolio 14" src="https://github.com/user-attachments/assets/40398af5-c139-4942-a292-37155d4b7edc" />
+<P>
+ 
+</P>
 After running the script, open Active Directory Users and Computers (ADUC) and verify that the accounts have been created in the appropriate _EMPLOYEES organizational unit.
 
 <img width="869" height="734" alt="AD Portfolio 15" src="https://github.com/user-attachments/assets/9eaea62c-c850-49b8-bafa-13cb4098e634" />
