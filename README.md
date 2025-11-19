@@ -135,7 +135,7 @@ https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps
 
 After running the script, open Active Directory Users and Computers (ADUC) and verify that the accounts have been created in the appropriate _EMPLOYEES organizational unit.
 
-<img width="1309" height="855" alt="AD Portfolio 13" src="https://github.com/user-attachments/assets/062c3dad-51d5-4172-a17a-ca6c7b9c2c1a" />
+<img width="869" height="734" alt="AD Portfolio 15" src="https://github.com/user-attachments/assets/9eaea62c-c850-49b8-bafa-13cb4098e634" />
 
 Lastly, log in to the Client1 VM using one of the user accounts created by the PowerShell script, with the username and default password Password1. After logging in, open PowerShell to verify that you are logged in as one of the script-created users.
 
