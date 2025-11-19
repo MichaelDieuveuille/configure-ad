@@ -56,6 +56,7 @@ In this step, we logged into the Windows Server VM that is acting as the domain 
 <img width="2558" height="1268" alt="Screenshot 2025-11-18 184747" src="https://github.com/user-attachments/assets/6ad2a323-c08b-4347-8fa6-9992643c9003" />
 
 <p>
+</p>
 
  Next, we'll RDP into the domain controller and disable the firewall for the domain, private, and public profiles. To do this, right-click the Windows symbol, select "Run," and type wf.msc. In the Windows Defender Firewall window, ensure the firewall is turned off for all profiles.
 <p>
