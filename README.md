@@ -43,6 +43,9 @@ After that, we will create another virtual machine and name it "client-1" and th
 </p>
 
 Before we begin opening up the virtual machines, we need to configure the private address Ip settings for the dc-1 virtual machine from dynamic to static. This ensures the client machine can join the domain and use DC-1 as its DNS server. 
+<p>
+ 
+</p>
 <img width="2505" height="1307" alt="Screenshot 2025-11-06 150541" src="https://github.com/user-attachments/assets/7f491ee1-c9d3-44b1-94dc-bab84cd997c8" />
 
 </p>
@@ -63,30 +66,36 @@ In this step, we logged into the Windows Server VM that is acting as the domain 
 
 
 
-Following that, we'll RDP into the Client1 virtual machine and attempt to ping DC-1's IP address using PowerShell. This should be successful since we disabled DC-1's firewall, allowing the machine to respond to the ping. We'll use the ipconfig /all command on Client1 to confirm that DC-1 is configured as the DNS server for the virtual machine.
 
 <img width="893" height="365" alt="AD Portfolio 2" src="https://github.com/user-attachments/assets/da0f64df-2f2a-4366-8138-c5e8a28a9cdf" />
 
 <img width="858" height="736" alt="AD Portfolio 3" src="https://github.com/user-attachments/assets/3486039a-aa40-4f58-87d8-dc3978f4a076" />
-
-Next, we'll install Active Directory Domain Services (AD DS) using the Server Manager on the domain controller.
-
+Following that, we'll RDP into the Client1 virtual machine and attempt to ping DC-1's IP address using PowerShell. This should be successful since we disabled DC-1's firewall, allowing the machine to respond to the ping. We'll use the ipconfig /all command on Client1 to confirm that DC-1 is configured as the DNS server for the virtual machine.
+<p>
 <img width="789" height="562" alt="AD Portfolio 4" src="https://github.com/user-attachments/assets/e9a857cd-daeb-4cf4-9ab3-52325970eea0" />
-
-
-We'll promote DC-1 to a Domain Controller and set up a new forest with the domain name mydomain.com.
+ 
+</p>
+Next, we'll install Active Directory Domain Services (AD DS) using the Server Manager on the domain controller.
 
 <img width="762" height="555" alt="AD Portfolio 5" src="https://github.com/user-attachments/assets/b159512b-51ca-4167-b3b2-846fb128ff88" />
 
-Next, we'll open Active Directory Users and Computers and create two organizational units, _EMPLOYEES and _ADMINS, by right-clicking mydomain.com, selecting New, and then choosing Organizational Unit.
+We'll promote DC-1 to a Domain Controller and set up a new forest with the domain name mydomain.com.
+
+</p>
 
 <img width="765" height="531" alt="AD Portfolio 6" src="https://github.com/user-attachments/assets/218d1020-7181-4c69-b78b-81b2e316d3d7" />
+Next, we'll open Active Directory Users and Computers and create two organizational units, _EMPLOYEES and _ADMINS, by right-clicking mydomain.com, selecting New, and then choosing Organizational Unit.
 
 
+</p>
+
+<img width="438" height="377" alt="AD Portfolio 7" src="https://github.com/user-attachments/assets/88cb89d1-5b66-424a-b6b0-f87dca8abfe5" />
 In the Admins OU, we'll create a new user named Ken Doe with the username ken_admin.
 
 
-<img width="438" height="377" alt="AD Portfolio 7" src="https://github.com/user-attachments/assets/88cb89d1-5b66-424a-b6b0-f87dca8abfe5" />
+<p>
+ 
+</p>
 
 Next, we'll add Ken Doe as a Domain Admin. Right-click the user, select Properties, navigate to the Member Of tab, and click Add. In the "Enter object names" field, type Domain Admins and press Enter to complete the process.
 
