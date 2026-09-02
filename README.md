@@ -12,6 +12,11 @@ In this repository, we configure user accounts, groups, and Organizational Units
 - Windows Server 2019/2022
 - Windows 10 (client)
 
+
+## Project Demonstration
+
+[▶ Watch the Project Demonstration](./video/ActiveDirectory-Project-demo.mp4)
+
 ## High-Level Steps
 1.Set up Azure environment
 Created a resource group, virtual network, and two virtual machines—one for the domain controller and one for a client system.
