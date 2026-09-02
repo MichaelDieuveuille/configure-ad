@@ -15,7 +15,8 @@ In this repository, we configure user accounts, groups, and Organizational Units
 
 ## Project Demonstration
 
-[▶ Watch the Project Demonstration](
+[▶ Watch the Project Demonstration]
+(
 
 https://github.com/user-attachments/assets/8c918ab7-6699-42b3-91db-8595906feb24
 
