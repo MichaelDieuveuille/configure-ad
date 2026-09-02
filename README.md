@@ -15,7 +15,11 @@ In this repository, we configure user accounts, groups, and Organizational Units
 
 ## Project Demonstration
 
-[▶ Watch the Project Demonstration](./video/ActiveDirectory-Project-demo.mp4)
+[▶ Watch the Project Demonstration](
+
+https://github.com/user-attachments/assets/8c918ab7-6699-42b3-91db-8595906feb24
+
+)
 
 ## High-Level Steps
 1.Set up Azure environment
